@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+    </style>
+    <title>Treasure Hunt</title>
+  </head>
+  <body>
+    <h1>Treasure Hunt</h1>
+
+    <div id="bagContainer">
+      <h2>Bag Info</h2>
+      <div id="bagInfo"></div>
+      <div id="bagItems"></div>
+    </div>
+
+    <div id="availableItemsContainer">
+      <h2>Available Items</h2>
+    </div>
+
+    <div id="buttonContainer"></div>
+    <button
+      id="restartBtn"
+      class="bg-none rounded-full p-3 m-2 text-mocha-teal"
+    >
+      <span class="material-symbols-outlined"> restart_alt </span>
+    </button>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

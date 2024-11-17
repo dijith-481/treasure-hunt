@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#bagContainer {
+  @apply m-4 p-4 bg-mocha-base rounded-xl shadow-md my-4;
+}
+
+#bagInfo {
+  @apply text-lg;
+}
+
+#bagInfo p {
+  @apply my-1;
+}
+
+#bagItems {
+  @apply mt-2 grid grid-cols-2 gap-2;
+}
+
+#bagItems button {
+  @apply justify-between items-center  m-0  p-2 bg-blue-500 text-mocha-base rounded select-none;
+}
+#availableItemsContainer {
+  @apply p-4 m-4  bg-white rounded-xl shadow-md my-4 bg-mocha-mantle;
+}
+
+#availableItemsContainer button {
+  @apply flex justify-between items-center w-full m-2 px-4 py-2   text-mocha-base rounded hover:border-l-8 hover:border-mocha-overlay1 transition-all;
+}
+
+#buttonContainer {
+  @apply flex flex-col justify-center mt-4;
+}
+
+#buttonContainer button {
+  @apply mx-8 my-4  px-6 py-4 bg-mocha-peach  text-mocha-base font-bold rounded-full hover:bg-mocha-maroon hover:rounded-3xl transition-colors;
+}
+
+h1 {
+  @apply text-5xl font-bold text-center mb-4 text-mocha-lavender;
+}
+
+h2 {
+  @apply text-xl font-semibold mb-2 text-mocha-peach;
+}
+
+body {
+  @apply my-4 text-base text-mocha-text bg-mocha-crust;
+}
+
+@media (min-width: 640px) {
+  body {
+    @apply text-lg;
+  }
+}
+.suggested-item {
+  animation: pulse 1s 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(249, 226, 175, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 5px rgba(249, 226, 175, 0.7);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(249, 226, 175, 0.7);
+  }
+}
