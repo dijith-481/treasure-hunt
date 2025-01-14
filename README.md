@@ -8,7 +8,7 @@ This project is an interactive web application developed as a presentation aid f
 
 ## Screenshots
 
-![Screenshot of the Treasure Hunt Web Application](<img src="./assets/screenshot.png" alt="Screenshot of the Treasure Hunt Web Application" height="500">)
+![Screenshot of the Treasure Hunt Web Application](./assets/screenshot.png)
 
 ## Game Mechanics
 
