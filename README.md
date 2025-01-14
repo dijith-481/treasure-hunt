@@ -1,10 +1,10 @@
 # Treasure Hunt: Greedy Approach vs. Dynamic Programming
 
-[https://treasure-hunt-f92k.onrender.com](https://treasure-hunt-f92k.onrender.com)
+[See Live treasure-hunt](https://treasure-hunt-f92k.onrender.com)
 
 ## Overview
 
-This project is an interactive web application developed as a presentation aid for our group on the topic **Greedy Algorigthms** for **Algorithmic Thinking with Python** course. It aims to illustrate the **Greedy Approach** in problem-solving and provide a basis for comparison with **Dynamic Programming** using a fun, treasure hunt-themed game. The core problem presented is a variation of the classic **Knapsack Problem**, where players must strategically choose diamonds to maximize their value within a given weight constraint.
+This project is an interactive web application developed as a presentation aid for our group on the topic **Greedy Algorigthms** for **Algorithmic Thinking with Python** course.Heavily inspired from **Catppuccin mocha palette** It aims to illustrate the **Greedy Approach** in problem-solving and provide a basis for comparison with **Dynamic Programming** using a fun, treasure hunt-themed game. The core problem presented is a variation of the classic **Knapsack Problem**, where players must strategically choose diamonds to maximize their value within a given weight constraint.
 
 ## Screenshots
 
@@ -20,7 +20,7 @@ This project is an interactive web application developed as a presentation aid f
 
 ## Technologies Used
 
-- ** Build Tool:** [Vite](https://vitejs.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
 - **Programming Language:** [TypeScript](https://www.typescriptlang.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Color Scheme:** [Catppuccin Mocha](https://github.com/catppuccin/catppuccin) - Soothing pastel theme for the high-spirited!
