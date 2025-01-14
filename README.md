@@ -8,7 +8,7 @@ This project is an interactive web application developed as a presentation aid f
 
 ## Screenshots
 
-![Screenshot of the Treasure Hunt Web Application](./assets/screenshot.png)
+![Screenshot of the Treasure Hunt Web Application](<img src="./assets/screenshot.png" alt="Screenshot of the Treasure Hunt Web Application" height="500">)
 
 ## Game Mechanics
 
@@ -54,8 +54,6 @@ To run this project locally:
    ```bash
    npm run dev
    ```
-
-   This will open the application in your browser at `http://localhost:5173/` (or a different port if 5173 is in use).
 
 ## Acknowledgements
 
